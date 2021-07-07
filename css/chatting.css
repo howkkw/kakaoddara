@@ -83,7 +83,7 @@
   box-sizing: border-box;
 }
 
-.chatting_input_msg_column input {
+.chatting_input_msg_column .chatting_input_msg_column_input {
   border: none;
   background-color: rgba(0, 0, 0, 0.01);
   color: black;
@@ -131,8 +131,8 @@
   border-radius: 50%;
   cursor: pointer;
   position: absolute;
-  right: 0.4px;
-  top: 0.48px;
+  right: 0.2px;
+  top: 0px;
 }
 .keyboard {
   background-color: #d1d4d9;
@@ -203,4 +203,10 @@ transform:translateY(-269px);
 .chatting_icon_text,
 .chatting_icon_text_reply{
   animation:fadein 0.5s linear;
+}
+.keyboard_btn_white span{
+  display:flex;
+  width:16px;
+  justify-content: center;
+  align-items: center;
 }
