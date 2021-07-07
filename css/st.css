@@ -20,6 +20,7 @@
 
 body {
   font-family: "Do Hyeon", sans-serif;
+
 }
 .main_margin {
   margin-left: 25px;
@@ -110,6 +111,7 @@ animation:rotatecog 1s linear infinite;
   font-size:110px;
   animation:fadeout 0.5s ease-in-out forwards;
   animation-delay:1s;
+  z-index:50;
 }
 @keyframes fadeout{
   from{opacity:1;
