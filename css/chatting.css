@@ -180,7 +180,8 @@
   bottom: -269px;
   transition:0.1s ease-in-out;
 }
-.keyboard_input_set:focus-within{
+.keyboard_input_set:focus-within,
+.keyboard_input_set:focus{
 transform:translateY(-269px);
 } 
 .keyboard_column:nth-child(2){
